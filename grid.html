@@ -23,6 +23,14 @@
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
 	<style>
+	
+		body {
+    background: url("img/silk.jpg" no-repeat bottom center scroll);
+}
+	
+	body {
+	background-color:grey;
+	}
 	div.ex1 {
 		width:300px;
 		margin: auto;
@@ -46,12 +54,13 @@ hr.style3 {
 
 
 .wrapper {
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
+  display: inline-grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
   grid-gap: 10px;
   background:rgba(0,0,0,0);
-    margin: auto;
-    width: 50%;
+    /*margin: left;*/
+    /*width: 50%;*/
+	width: 550px;
 	
 }
 
@@ -68,12 +77,46 @@ hr.style3 {
   
 }
 
+.portrait {
+  /*background-color: #555;*/
+    background:rgba(150,150,150,0);
+  color: #ddd;
+  padding: 50px;
+  margin: 50px;
+  font-size: 150%;
+
+  
+  
+}
+
 .smalltext {
 	font: 15px arial bold;
 	font-weight: bold;
 	font-family: proxima-nova;
-	margin-top: 20px;
+	margin-top: 10px;
 	
+}
+
+.toptext {
+	font: 23px arial bold;
+	font-weight: bold;
+	font-family: proxima-nova;
+	
+	
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+
+    
+}
+.caption {
+    display: block;
 }
 
 
@@ -101,17 +144,84 @@ hr.style3 {
       <div class="intro-body">
         <div class="container">
           <div class="row">
+
             <div class="col-lg-8 mx-auto">
-			
-<div class="wrapper">
-  <div class="box a"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
-  <div class="box b"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i></div>
-  <div class="box c"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i></div>
-  <div class="box d"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i></div>
-  
+		  	<p class="toptext">Welcome back Taylor!</p>
+			<p>Where are you heading next? Select one.</p>
+			<br>
+		  <div class="item">
+    <img src="img/taylor.png"/>
+
+    <span class="caption">Taylor</span>
 </div>
+<span class="wrapper">
+  <div class="box a"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box b"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box c"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box d"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  
+</span>
+
+
 			
             </div>
+			
+          </div>
+		  <hr class="style3">
+		            <div class="row">
+
+            <div class="col-lg-12 mx-auto">
+		  
+		  <div class="item">
+    <img src="img/friends1.png"/>
+    <span class="caption">Lily</span>
+</div>
+		  <div class="item">
+    <img src="img/friends2.png"/>
+    <span class="caption">Cody</span>
+</div>
+
+<span class="wrapper">
+  <div class="box a"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box b"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box c"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box d"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  
+  
+</span>
+
+
+			
+            </div>
+			
+          </div>
+		  
+		  		            <div class="row">
+
+            <div class="col-lg-12 mx-auto">
+		  
+		  <div class="item">
+    <img src="img/friends3.png"/>
+    <span class="caption">Henry</span>
+</div>
+		  <div class="item">
+    <img src="img/friends4.png"/>
+    <span class="caption">Brittany</span>
+</div>
+
+<span class="wrapper">
+  <div class="box a"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box b"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box c"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box d"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  
+  
+</span>
+
+
+			
+            </div>
+			
           </div>
         </div>
       </div>
