@@ -47,18 +47,33 @@ hr.style3 {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
   grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
+  background:rgba(0,0,0,0);
+    margin: auto;
+    width: 50%;
+	
 }
 
 .box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
+  /*background-color: #555;*/
+    background:rgba(150,150,150,0);
+  color: #ddd;
   padding: 20px;
   font-size: 150%;
+  border-style: dotted;
+  border-width: 1.5px;
+  border-color: #ddd;
+  
+  
+}
+
+.smalltext {
+	font: 15px arial bold;
+	font-weight: bold;
+	font-family: proxima-nova;
+	margin-top: 20px;
+	
 }
 
 
@@ -89,12 +104,11 @@ hr.style3 {
             <div class="col-lg-8 mx-auto">
 			
 <div class="wrapper">
-  <div class="box a">A</div>
-  <div class="box b">B</div>
-  <div class="box c">C</div>
-  <div class="box d">D</div>
-  <div class="box e">E</div>
-  <div class="box f">F</div>
+  <div class="box a"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i><div class="smalltext">Shopping</div></div>
+  <div class="box b"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i></div>
+  <div class="box c"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i></div>
+  <div class="box d"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i></div>
+  
 </div>
 			
             </div>
